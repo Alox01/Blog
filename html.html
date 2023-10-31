@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+</head>
+<script>
+    function rt(){
+        if((volta.checked)){
+            window.location.href="blog.html"
+        }
+    }
+</script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+}
+
+
+h1 {
+    color: #333;
+    text-align: center;
+    background-color: #c42104;
+    color: white;
+    padding: 10px;
+}
+
+
+p {
+    line-height: 1.5;
+    margin: 20px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+
+.btnretorno {
+    background-color: #c23308;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+label {
+    display: block;
+    margin: 20px;
+}
+
+#volta {
+    display: inline-block;
+    margin-right: 10px;
+}
+</style>
+
+<body>
+ 
+    <label for="volta">Deseja voltar?</label>
+    <input type="checkbox" id="volta">
+    <a href="#"><input type="button" class="btnretorno" value="Retornar" onclick="rt()"></a>
+
+    <h1>O que é HTML?</h1>
+    <p>O HTML (HyperText Markup Language) é a linguagem de marcação padrão para criar páginas na web. É uma linguagem de programação amplamente utilizada, que permite a criação de estruturas e elementos interativos em páginas web.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png" alt="Logo do HTML5">
+
+<h2>Exemplo de HTML</h2>
+<p>Aqui está um exemplo simples de código HTML:</p>
+<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt>Minha Página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Bem-vindo ao meu site&lt;/h1&gt;
+    &lt;p&gt;Esta é uma página de exemplo HTML.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Este código cria uma página da web que exibe um título, um cabeçalho e um parágrafo de texto.</p>
+    
+</body>
+</html>

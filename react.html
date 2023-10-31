@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #61DAFB;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+p {
+    margin: 20px;
+    font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px; 
+}
+
+label {
+    display: block;
+    margin: 20px;
+}
+
+#volta {
+    display: inline-block;
+    margin-right: 10px;
+}
+</style>
+
+<body>
+    
+    <h1>O que é React.js?</h1>
+    <p>React.js é uma biblioteca JavaScript de código aberto para a construção de interfaces de usuário interativas e reativas. É amplamente usado no desenvolvimento de aplicativos da web para criar componentes reutilizáveis e eficientes.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Logo do React.js">
+<h2>Exemplo de React.js</h2>
+<p>Aqui está um exemplo simples de código React.js:</p>
+<pre><code>
+import React from 'react';
+
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { message: 'Olá, React.js!' };
+    }
+
+    render() {
+        return (
+            <div>
+                <h2>Exemplo de React.js</h2>
+                <p>{this.state.message}</p>
+            </div>
+        );
+    }
+}
+
+export default App;
+</code></pre>
+<p>Este código React.js cria um componente simples que exibe a mensagem "Olá, React.js!".</p>
+</body>
+</html>

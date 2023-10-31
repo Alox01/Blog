@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NODE.JS</title>
+</head>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #8CC84B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+p {
+    margin: 20px;
+    font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px; 
+}
+
+label {
+    display: block;
+    margin: 20px;
+}
+
+#volta {
+    display: inline-block;
+    margin-right: 10px;
+}
+</style>
+
+<body>
+    
+    <h1>O que é Node.js?</h1>
+    <p>Node.js é uma plataforma de desenvolvimento de código aberto que permite a execução de JavaScript no lado do servidor. Ele é amplamente utilizado para criar aplicativos de rede escaláveis e em tempo real, como aplicativos de bate-papo e aplicativos da web.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Logo do Node.js">
+
+<h2>Exemplo de Node.js</h2>
+<p>Aqui está um exemplo simples de código Node.js:</p>
+<pre><code>
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('Hello, Node.js!');
+});
+
+const port = 3000;
+server.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});
+</code></pre>
+
+<p>Este código cria um servidor HTTP simples que responde com "Hello, Node.js!" quando acessado.</p>
+    
+</body>
+</html>
