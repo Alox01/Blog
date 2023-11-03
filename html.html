@@ -8,7 +8,9 @@
 <script>
     function rt(){
         if((volta.checked)){
-            window.location.href="blog.html"
+            window.location.href="index.html"
+        }else{
+            alert("Selecione a confirmação para voltar a tela inicial")
         }
     }
 </script>
@@ -69,10 +71,11 @@ label {
 </style>
 
 <body>
- 
-    <label for="volta">Deseja voltar?</label>
+    <a href="#" onclick="rt()">Voltar a página inicial</a>
+    <br>
+    <label for="volta">Confirmo</label>
     <input type="checkbox" id="volta">
-    <a href="#"><input type="button" class="btnretorno" value="Retornar" onclick="rt()"></a>
+    
 
     <h1>O que é HTML?</h1>
     <p>O HTML (HyperText Markup Language) é a linguagem de marcação padrão para criar páginas na web. É uma linguagem de programação amplamente utilizada, que permite a criação de estruturas e elementos interativos em páginas web.</p>
